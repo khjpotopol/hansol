@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.mainSlider{
+    height:690px; 
+    background:url(../images/main_img.jpg) no-repeat center center;
+    margin:0 50px; 
+    position:relative; 
+    text-align:center; 
+    font-size:20px;
+    color:#fff; 
+}
+
+.sliderTxt{padding-top:290px;}
+.sliderTxt h2{font-size:35px;}
+.sliderTxt span{display:block; margin-bottom:10px;}
+
+.sliderBtn{width:25px; height:45px; background:url(../images/sp_com.png) no-repeat -128px -61px; text-indent:-9999px; position:absolute; top:50%; margin-top:-12px;}
+.sliderBtn a{display:block; height:100%;}
+.prevBtn{left:30px;}
+.nextBtn{background-position: -159px -61px; right:30px;}
+
+/*컨텐츠01*/
+.mainCon01{text-align:center;}
+.mainCon01 ul{display:inline-block;}
+.mainCon01 li{float:left; margin:50px; font-size:14px;}
+.mainCon01 li span{background-image: url(../images/sp_com.png); width:64px; height:54px; display:block; text-indent:-9999px;}
+
+.con01Icon01{background-position:-3px -118px;}
+.con01Icon02{background-position:-74px -118px;}
+.con01Icon03{background-position:-146px -117px;}
+.con01Icon04{background-position:-219px -118px;}
+.con01Icon05{background-position:-291px -118px;}
+.con01Icon06{background-position:-363px -118px;}
+
+/*컨텐츠02*/
+.mainCon02{background:#DFD9D1; padding-bottom:70px;}
+
+.con02Tit{text-align:center; padding:30px;}
+.mainCon02 .inner{position:relative;}
+
+.con02Tit h2{font-size:30px; padding-bottom:10px;}
+
+.con02Left{position:relative;float:left;}
+.con02Left img{display:block;}
+
+.con02Txt{position:absolute; right:0; top:0; background:rgba(0,0,0,0.5); color:#fff; height:100%; width:240px; padding:30px 15px;  box-sizing:border-box;}
+.con02Txt h4{font-size:14px; margin:20px 0;}
+.con02Txt p{font-size:20px; margin:10px 0;}
+.con02Txt span{display:block; font-weight:bold;}
+.con02Txt .lastTxt{font-size:14px;}
+
+.moreBtn{border:1px #fff solid; font-size:17px; position:absolute; width:210px; bottom:30px; text-align:center; line-height:50px;}
+.moreBtn a{color:#fff; display:block;}
+
+/*호버*/
+.moreBtn:hover a{background:#fff; color:#333;}
+/*호버*/
+
+.con02Right{float:left; background:#fff; width:400px; height:430px;}
+
+.con02list{padding:0 20px;}
+.con02list li{padding-top:22px}
+.con02list li img{width:80px;}
+.con02list li img,.con02list li p{vertical-align:middle;}
+.con02list li p{display:inline-block; margin-left:10px;}
+.con02list li p span{display:block; font-weight:bold; font-size:13px; margin-bottom:5px;}
+
+.mainCon02 .sliderBtn{z-index:10;}
+.mainCon02 .prevBtn{left:-50px}
+.mainCon02 .nextBtn{right:-50px;}
+
+/*컨텐츠03*/
+.mainCon03{margin-top:50px;}
+.mainCon03>div{width:285px; height:285px; margin-left:20px; float:left; text-align:center; background-size:cover;}
+.mainCon03>div a{height:100%; display:block;}
+.con03Menu01 h3,.con03Menu03 h3{color:#fff;}
+.mainCon03>div h3{padding-top:100px;}
+.mainCon03 p{margin-top:10px;color:#fff; font-size:14px; display:none;}
+
+/*호버*/
+.mainCon03>div:hover a{background-color:rgba(10,85,120,0.6);}
+.mainCon03>div:hover p{display:block;}
+.mainCon03>div:hover a h3{color:#fff;}
+
+/*호버*/
+
+.mainCon03 .con03Menu01{margin-left:0; background-image:url(../images/mainrow3_img1.jpg);}
+.con03Menu02{background-image:url(../images/mainrow3_img2.jpg);}
+.con03Menu03{background-image:url(../images/mainrow3_img3.jpg);}
+.con03Menu04{background-color:#f2f0ed;}
+.mainCon03 .con03Menu04 h3{padding-top:10px;}
+.mainCon03 form{padding:20px;}
+
+.con03Menu04 select, .con03Menu04 input, .con03Menu04 button{border:0; width:100%; padding:0 10px; height:45px; box-sizing:border-box; background-color:#fff; margin-top:10px;}
+.con03Menu04 select{-webkit-appearance:none; appearance:none; background:url(../images/arrow.png) #fff no-repeat 95% center; margin-top: 30px;}
+.con03Menu04 button{background-color:#2d5b79; color:#fff; margin-top: 30px; cursor:pointer;}
+
+/*컨텐츠04*/
+
+.con04Box{background-color:#f1efec; width:590px; float:left; margin:20px 20px 50px 0; height:198px;}
+.con04Box h3{text-align:center; color:#2b5b79; font-size:20px; line-height:60px; border-bottom:1px solid #fff; position:relative;}
+.plusBtn{background:url(../images/sp_com.png) #fff no-repeat -199px -63px; width:24px; height:24px; display:block; text-indent:-9999px; border-radius:50%; position:absolute; top:50%; margin-top:-12px; right:20px;}
+
+.con04Box li p{font-size:14px; width:100%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.con04Box li span{font-size:12px; color:#999;}
+
+.noticeList li{width:50%; float:left; border-right:1px solid #fff; box-sizing:border-box; padding:20px; height:137px;}
+.noticeList li:last-child{border:0;}
+
+.noticeList li span{padding:10px 0; display:block;}
+
+.news{margin-right:0;}
+
+.newList li{border-top:1px solid #fff; position:relative; padding:0 20px; line-height:45px;}
+.newList li:first-child{border:0;}
+.newList li p{width:75%;}
+.newList li span{position:absolute; right:20px;top:0;}
+
+/*컨텐츠05*/
+.mainCon05{background:url(../images/mainrow4_bg.jpg) no-repeat center center; background-size:cover;}
+
+.con05Menu{padding:50px 0;}
+.con05Menu li{float:left; margin-right:20px; width:285px; text-align:center; position:relative;}
+.con05Menu li:last-child{margin-right:0;}
+.con05Menu li img{width:100%; display:block;}
+
+.con05Txt{position:absolute; bottom:30px; width:100%; font-size:14px; }
+
+
+/*호버*/
+
+.mainCon01 li:hover span{background-position-y:-184px;}
+.mainCon01 li:hover .con01Icon03{background-position-y:-183px;}
+.mainCon01 li:hover a{color:#2d5d79;}
